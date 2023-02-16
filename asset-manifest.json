@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jakwyjol/static/css/main.d453081b.css",
+    "main.js": "/jakwyjol/static/js/main.f9aca007.js",
+    "static/media/car.png": "/jakwyjol/static/media/car.b851f0f8b398602d34d1.png",
+    "static/media/manual.png": "/jakwyjol/static/media/manual.368d96910ae509b6fcb0.png",
+    "static/media/quiz.png": "/jakwyjol/static/media/quiz.b6a9b9c8fdb3f746856e.png",
+    "static/media/banner.png": "/jakwyjol/static/media/banner.487af97d9f807c6a18fb.png",
+    "static/media/signs.png": "/jakwyjol/static/media/signs.7aa66b9551e3e078d96a.png",
+    "static/media/school.png": "/jakwyjol/static/media/school.f8ff6e9effc4ba62cae6.png",
+    "static/media/Instruction.png": "/jakwyjol/static/media/Instruction.9f8116c1dc4fb4206c09.png",
+    "static/media/bio.png": "/jakwyjol/static/media/bio.de9202ff6189f9c26aef.png",
+    "static/media/document.png": "/jakwyjol/static/media/document.6c8215c3e263ad675c3f.png",
+    "static/media/practice.png": "/jakwyjol/static/media/practice.046767e95f0f2de0aa6e.png",
+    "static/media/roadsign.png": "/jakwyjol/static/media/roadsign.e896e44f539d2a83db20.png",
+    "index.html": "/jakwyjol/index.html",
+    "main.d453081b.css.map": "/jakwyjol/static/css/main.d453081b.css.map",
+    "main.f9aca007.js.map": "/jakwyjol/static/js/main.f9aca007.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d453081b.css",
+    "static/js/main.f9aca007.js"
+  ]
+}
