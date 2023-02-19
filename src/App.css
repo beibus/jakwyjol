@@ -1,21 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.App {
+  width: 1440px;
+  margin: 0 auto;
+}
+a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 header {
   background-color: #52de60;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  border: 1px solid black;
   padding: 0 100px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 39px;
+  color: #1c1b1f;
 }
 
 .header-items {
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: space-around;
+  width: 45%;
 }
 
 .header-icons {
-  width: 35%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +50,7 @@ header {
   background-color: #52de60;
   padding: 0px 100px;
   background-image: url(./images/signs.png);
-  height: 100vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -34,56 +59,131 @@ header {
 .hero-banner {
   display: flex;
   justify-content: flex-end;
-  margin-top: 128px;
+  margin-top: 105px;
   width: 50%;
-  border: 1px solid black;
 }
 
 .hero-car {
   display: flex;
   justify-content: flex-start;
-  margin-top: 128px;
-  border: 1px solid black;
+  margin-top: 105px;
 }
 
 .hero-banner > img {
-  height: 63%;
+  max-height: 406px;
   width: auto;
 }
 
 .hero-car > img {
-  height: 75%;
+  max-height: 474px;
   width: auto;
 }
 
 .instruction-wrapper {
   background-color: #52de60;
-  padding: 0px 100px;
   height: 60vh;
   display: flex;
   justify-content: space-between;
 }
 
 .instruction-image {
+  padding-left: 100px;
   width: 45%;
   align-self: flex-start;
   display: flex;
   justify-content: flex-start;
 }
 
-
 .instruction-image > img {
   width: 80%;
 }
 
 .instruction-call {
+  padding-right: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
+}
+
+.call-text {
+  font-size: 40px;
+  line-height: 45px;
 }
 
 .call-button {
   display: flex;
   align-items: center;
+}
+
+.call-button-item {
+  position: relative;
+  width: 336px;
+  height: 72px;
+  left: -27px;
+  top: 0px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #d5d5d5 100%, #d9d9d9 100%);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.call-icon {
+  z-index: 500;
+}
+
+.button-text {
+margin-top: 15px;
+}
+
+.actions-wrapper {
+  padding: 0px 100px;
+
+  background-color: #52de60;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.actions-card {
+  border: 1px solid red;
+  border-radius: 15px;
+  width: 400px;
+  height: 200px;
+}
+
+.bio {
+  background-image: url(./images/bio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.practice {
+  background-image: url(./images/practice.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instruction {
+  background-image: url(./images/Instruction.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.manual-wrapper {
+  display: flex;
+}
+
+.content-body {
+  background-image: url(./images/school.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 420px; */
+  height: 320px;
+}
+
+footer {
+  background-color: #52de60;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
 }
